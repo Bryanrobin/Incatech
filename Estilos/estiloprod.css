@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar a {
+    font-weight: 600;
+    font-size: 18px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#64656A;
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+.prods{
+    padding-top: 60px;
+}
+.producto {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #333;
+}
+p {
+    line-height: 1.6;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #424253;
+    color: #fff;
+    border:rgb(153, 153, 153);
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+@media(max-width:767px){
+    .services{
+        padding: 30px 0;
+    }
+
+    .product{
+        padding: 30px 0 0 0;
+    }
+
+    .banner{
+        margin-bottom: 30px;
+    }
+
+}
